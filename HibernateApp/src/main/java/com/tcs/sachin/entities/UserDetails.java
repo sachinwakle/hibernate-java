@@ -31,7 +31,7 @@ public class UserDetails {
 	private String name;
 	
 	@Column(name="join_date")
-	@Temporal(TemporalType.DATE)
+	@Temporal(TemporalType.DATE)  // only date should be saved
 	private Date joinDate;
 	
 	@Embedded
